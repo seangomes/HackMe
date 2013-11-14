@@ -9,6 +9,7 @@ header, footer, aside, nav, article {
 #wrapper {
 	background:white;
 	border: 1px solid; 
+	height: 100%;
 
 
 }
@@ -19,7 +20,7 @@ body {
 	font: 13px/22px Helvetica, Arial, sans-serif;
 	background: #f0f0f0;
 	margin-top: 50px;
-
+	height: 100%;
 }
 
 p {
@@ -74,8 +75,12 @@ img {
 	height:200px;
 	width: 300px;
 	float:right;
-	
+}
 
+footer {
+	background: #333333;
+	height:100px;
+	height: 100%;
 
 }
 
@@ -93,3 +98,21 @@ img {
 	
 }
 
+
+
+#foot_right_colum {
+	border: 1px solid red;
+	width: 200px;
+	
+}
+	.footer_header {
+		font-size: 15px;
+		text-align: center;
+
+	}
+
+	.footer_text {
+		font-size:12px;
+		text-align: center;
+		padding: 1px;
+	}

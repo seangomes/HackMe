@@ -56,6 +56,18 @@ session_start();
 					</p>
 			</article>
 			
+
+			<article id="second_colum">
+				
+					<h2>Nyheder2</h2>
+					<p>
+						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. 
+						Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. 
+						Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer. 
+						Sætningen blev gjordt kendt i 1960'erne med lanceringen af Letraset-ark, som indeholdt afsnit med Lorem Ipsum, 
+						og senere med layoutprogrammer som Aldus PageMaker, som også indeholdt en udgave af Lorem Ipsum.	
+					</p>
+			</article>
 		</section>
 
 		<aside>
@@ -80,8 +92,14 @@ session_start();
 		</aside>
 
 		<footer>
-			<p>Copyright 2009 Your name</p>
+			<section id="foot_right_colum">
+				<h1 class="footer_header">Nyeste projekter</h1>
+				<p class="footer_text">Test</p>
+				<p class="footer_text">Test</p>
+				<p class="footer_text">Test</p>
+			</section>
 		</footer>
+
 	</div>
 </body>
 
