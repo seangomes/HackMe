@@ -10,7 +10,7 @@ session_start();
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<title>Your Website</title>
 </head>
 
@@ -21,30 +21,39 @@ session_start();
 		<header>
 			<nav>
 				<ul>
-					<li><a href="#">Your menu</a></li>
-					<li><a href="#">Your menu</a></li>
-					<li><a href="#">Your menu</a></li>
-					<li><a href="#">Your menu</a></li>
+					<li><a href="#">Forside</a></li>
+					<li><a href="#">Projekter</a></li>
+					<li><a href="#">Curriculum Vitae</a></li>
+					<li><a href="#">Kontakt</a></li>
 				</ul>
 			</nav>
 		</header>
 		
 		<section>
 		
-			<article>
-				<header>
-					<h2>Article title</h2>
-					<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
-				</header>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+			<article id="first_colum">
+				
+					<h2>Velkommen</h2>
+					<img src="images/Sean.jpg">
+					<p class="alm_text">
+						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. 
+						Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. 
+						Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer. 
+						Sætningen blev gjordt kendt i 1960'erne med lanceringen af Letraset-ark, som indeholdt afsnit med Lorem Ipsum, 
+						og senere med layoutprogrammer som Aldus PageMaker, som også indeholdt en udgave af Lorem Ipsum.
+					</p>
 			</article>
 			
-			<article>
-				<header>
-					<h2>Article title</h2>
-					<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
-				</header>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+			<article id="second_colum">
+				
+					<h2>Nyheder</h2>
+					<p>
+						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. 
+						Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. 
+						Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer. 
+						Sætningen blev gjordt kendt i 1960'erne med lanceringen af Letraset-ark, som indeholdt afsnit med Lorem Ipsum, 
+						og senere med layoutprogrammer som Aldus PageMaker, som også indeholdt en udgave af Lorem Ipsum.	
+					</p>
 			</article>
 			
 		</section>
