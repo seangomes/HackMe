@@ -11,13 +11,16 @@ session_start();
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<title>Your Website</title>
+	<script type="text/javascript" src="scripts/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="scripts/showloginwindow.js"></script> 	<!-- Script til visning af loginvindue. -->
+	<title>SeanWEB</title>
 </head>
 
 <body>
-
+	<header>
+		
+	</header>
 	<div id="wrapper">
-
 		<header>
 			<nav>
 				<ul>
@@ -25,7 +28,13 @@ session_start();
 					<li><a href="#">Projekter</a></li>
 					<li><a href="#">Curriculum Vitae</a></li>
 					<li><a href="#">Kontakt</a></li>
+					<li class="login_section"><input class="userbutton" type="button" onclick="showLoginWindow()" value="Log ind"></li>	
 				</ul>
+				<!-- Her bliver et loginvindue/loginsettings vist -->
+				<article id="popup">
+				</article>
+				<hr>
+
 			</nav>
 		</header>
 		
@@ -71,24 +80,7 @@ session_start();
 		</section>
 
 		<aside>
-			<fieldset>
-			<table>
-			<th><h2>User Login</h2></th>
-			<tr>
-
-				<td><label>Username</label></td>
-				<td><input type="text" name="username" placeholder="username"></td>
-			</tr>
-			<tr>
-				<td><label>Password</label></td>
-				<td><input type="password" name="password" placeholder="password"></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td><input type="submit" name="submit" value="Login"></td>
-			</tr>
-			</fieldset>
-			</table>
+			
 		</aside>
 
 		<footer>
